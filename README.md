@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LOGO_URL" width="300">
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo" width="300">
 </p>
 
 <h1 align="center">osTicket: Ticket Lifecycle Examples (Enterprise Simulation)</h1>
