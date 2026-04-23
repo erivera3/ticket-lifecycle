@@ -90,14 +90,11 @@ Restricted agents must rely on documentation to communicate findings. Internal n
 
 ### 4. Role-Based Access Restriction
 
-The same agent was unable to modify ticket properties such as SLA, department, or assignment due to role-based access limitations.
+The same agent (john) was limited to read-only interaction and internal documentation, without the ability to modify ticket properties such as SLA, department, or assignment. All configuration controls were restricted, preventing direct escalation or reassignment.
 
 **Why it matters:**  
-Access control enforces operational boundaries. Not all agents can act on all tickets, which prevents unauthorized changes but requires escalation for resolution.
+Access control enforces operational boundaries within support systems. Agents may assess and document issues but are not always authorized to act on them. This ensures accountability and prevents unauthorized changes, while requiring escalation to higher-permission roles for further action.
 
-<p align="center">
-  <img src="images/ticket_access_denied.png" width="700">
-</p>
 
 ---
 
