@@ -14,19 +14,19 @@ I used a sample outage ticket to practice intake, impact assessment, internal no
 - Documented the assessment when agent permissions blocked changes.
 - Used administrator-approved access changes to continue the workflow and complete the simulated ticket.
 
-**Why it matters for IT support:** Shows how I document a problem, recognize a limit in my authority, and escalate rather than bypass controls.
+**Skills practiced:** Impact assessment, internal notes, ticket classification, permission checks, and escalation.
 
 [Installation lab](https://github.com/erivera3/osticket-prereqs/) · [Configuration lab](https://github.com/erivera3/post-install-config)
 
-**Scope:** The outage and its resolution were simulated. Closing the ticket demonstrates the workflow; it does not establish that I restored a real banking or customer system. Elevated access in this exercise is not a general recommendation for handling escalation.
+**Scenario:** I worked through a simulated outage ticket from intake to closure. When the agent account could not change ticket properties, I documented the issue and used the administrator account to adjust permissions within the lab.
 
 
-**SLA interpretation:** In osTicket, the plan's grace period sets when an unresolved ticket becomes overdue; it does not guarantee a first-response time or a resolution. [Official SLA documentation](https://docs.osticket.com/en/v1.16.4/Admin/Manage/SLA%20Plans.html).
+**SLA configuration:** I set grace periods to determine when unresolved tickets became overdue. [Official SLA documentation](https://docs.osticket.com/en/v1.16.4/Admin/Manage/SLA%20Plans.html).
 
 [Back to my portfolio](https://github.com/erivera3)
 
 <details>
-<summary><strong>Open the full walkthrough, screenshots, decisions, and lessons</strong></summary>
+<summary><strong>Walkthrough, screenshots, and troubleshooting notes</strong></summary>
 
 ## 📌 Context
 
@@ -219,7 +219,7 @@ Investigate, resolve, and confirm system recovery.
 
 ## Summary
 
-This project demonstrates how real support workflows are shaped by system constraints rather than ideal processes.
+I practiced how ticket classification, permissions, internal notes, and escalation affect a support workflow.
 
 Key outcomes:
 
