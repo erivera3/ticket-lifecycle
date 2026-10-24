@@ -2,20 +2,38 @@
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo" width="300">
 </p>
 
-<h1 align="center">osTicket: Ticket Lifecycle Simulation (Access Control & Escalation Under Constraints)</h1>
+# osTicket Ticket Lifecycle and Escalation
 
-This project analyzes how a help desk system behaves under real operational constraints, focusing on how permissions, SLA policies, and escalation workflows impact ticket resolution.
+**Project context:** Simulated support incident · Part 3 of the osTicket series
 
-The objective was not to track a ticket, but to observe how system limitations affect what actions are possible at each stage.
+I used a sample outage ticket to practice intake, impact assessment, internal notes, escalation, assignment, and closure in osTicket.
 
----
+## At a glance
+
+- Identified missing priority, SLA, and routing information.
+- Documented the assessment when agent permissions blocked changes.
+- Used administrator-approved access changes to continue the workflow and complete the simulated ticket.
+
+**Why it matters for IT support:** Shows how I document a problem, recognize a limit in my authority, and escalate rather than bypass controls.
+
+[Installation lab](https://github.com/erivera3/osticket-prereqs/) · [Configuration lab](https://github.com/erivera3/post-install-config)
+
+**Scope:** The outage and its resolution were simulated. Closing the ticket demonstrates the workflow; it does not establish that I restored a real banking or customer system. Elevated access in this exercise is not a general recommendation for handling escalation.
+
+
+**SLA interpretation:** In osTicket, the plan's grace period sets when an unresolved ticket becomes overdue; it does not guarantee a first-response time or a resolution. [Official SLA documentation](https://docs.osticket.com/en/v1.16.4/Admin/Manage/SLA%20Plans.html).
+
+[Back to my portfolio](https://github.com/erivera3)
+
+<details>
+<summary><strong>Open the full walkthrough, screenshots, decisions, and lessons</strong></summary>
 
 ## 📌 Context
 
 A ticketing system does not operate in isolation. Its behavior is controlled by:
 
 - Role-based access restrictions  
-- SLA enforcement  
+- SLA tracking  
 - Ticket classification  
 - Administrative control  
 
@@ -117,7 +135,7 @@ Administrator elevated agent access level.
 
 ---
 
-### 5. Escalation & SLA Enforcement
+### 5. Escalation and SLA Assignment
 
 **Problem:**  
 Critical issue not prioritized.
@@ -129,7 +147,7 @@ Critical issue not prioritized.
 
 **Result:**  
 - Ticket escalated to reflect business impact  
-- Response expectations enforced  
+- SLA target recorded for the simulated ticket  
 
 <p align="center">
   <img src="images/ticket_escalated.png" width="700">
@@ -212,3 +230,5 @@ Key outcomes:
 
 **Result:**  
 A clear demonstration of how access control, escalation, and SLA policies determine whether a system can respond effectively to critical incidents.
+
+</details>
